@@ -1,0 +1,8 @@
+C:/Users/86189/Desktop/IC/Practice/apb_sram/rtl/sp_sram.v {1 {vlog -work work -vopt -stats=none C:/Users/86189/Desktop/IC/Practice/apb_sram/rtl/sp_sram.v
+Model Technology ModelSim SE-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module sp_sram
+
+Top level modules:
+	sp_sram
+
+} {} {}}

@@ -1,0 +1,19 @@
+# vsim -c "+nowarnTSCALE" -L ./work -novopt -l load.log tb 
+# Start time: 10:09:00 on Dec 26,2023
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading work.tb
+# Loading work.apb_ms_model
+# Loading work.apb_sram
+# Loading work.spram_generic
+# ** Warning: (vsim-3015) ../pattern/tb.v(53): [PCDPC] - Port size (32) does not match connection size (12) for port 'paddr'. The port definition is at: ../pattern/apb_ms_model.v(34).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_apb_ms_model File: ../pattern/apb_ms_model.v
+# hexadecimal
+# OK: sim pass.
+# ** Note: $finish    : ../pattern/apb_ms_model.v(193)
+#    Time: 1308756 ns  Iteration: 0  Instance: /tb/u_apb_ms_model
+# 1
+# Break in Module apb_ms_model at ../pattern/apb_ms_model.v line 193
+# altEditor error: invalid command name "external_editor"
+# End time: 15:14:25 on Dec 26,2023, Elapsed time: 5:05:25
+# Errors: 1, Warnings: 2

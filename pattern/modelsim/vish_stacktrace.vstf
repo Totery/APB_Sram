@@ -1,0 +1,14 @@
+# Current time Thu Dec 03 15:53:26 2020
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "10.4c"
+# Version = "2015.07"
+# Date = "Jul 20 2015"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4036e803. Traceback:
+# 0    0x4036e803: 'Ucdb_Init + 0xd61b3'
+# 1    0x4036ece2: 'Ucdb_Init + 0xd6692'
+StackWalk failed 0
+# End of Stack Trace
+

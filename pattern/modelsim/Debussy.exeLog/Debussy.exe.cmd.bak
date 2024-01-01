@@ -1,0 +1,17 @@
+srcSourceCodeView
+debImport "-f" "flist.f" "-2001"
+srcResizeWindow 0 0 804 500
+srcDeselectAll -win $_nTrace1
+debReload
+srcHBSelect "tb" -win $_nTrace1
+srcSelect -win $_nTrace1 -range {24 24 3 4 1 1}
+srcResizeWindow 276 192 1140 631
+srcDeselectAll -win $_nTrace1
+debReload
+srcHBSelect "tb" -win $_nTrace1
+srcSelect -win $_nTrace1 -range {24 24 3 4 1 1}
+srcViewImportLogFile
+debReload
+srcHBSelect "tb" -win $_nTrace1
+srcSelect -win $_nTrace1 -range {24 24 3 4 1 1}
+debExit

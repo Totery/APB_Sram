@@ -1,0 +1,14 @@
+*design* DebussyLib (btIdent 3.3v9)
+Command arguments:
+    +define+verilog
+    -f flist.f
+        ../pattern/tb.v
+        ../pattern/apb_ms_model.v
+        ../pattern/spram_generic.v
+        ../rtl/apb_sram.v
+    -2001
+
+Highest level modules:
+tb
+
+Total	0 error(s),   0 warning(s)

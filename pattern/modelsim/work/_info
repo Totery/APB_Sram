@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/proj/study_demo/class_A/z_order/modelsim
+vapb_ms_model
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 aHi0fSWd0IR_Gg8YW`bFD3
+IcDWz>g55non8EGoYT0dN>1
+Z1 dE:/proj/study_demo/class_A/apb_sram/modelsim
+w1606983025
+8../pattern/apb_ms_model.v
+F../pattern/apb_ms_model.v
+Z2 L0 30
+Z3 OL;L;10.4c;61
+Z4 !s108 1606983041.000000
+Z5 !s107 ../rtl/apb_sram.v|../pattern/spram_generic.v|../pattern/apb_ms_model.v|../pattern/tb.v|
+Z6 !s90 -reportprogress|300|-O0|-vlog01compat|-f|flist.f|
+!s101 -O0
+!i113 0
+Z7 o-O0 -vlog01compat -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vapb_sram
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Wh0fkV<E10be9=`[@@WA41
+IDf:U9l0:5=X2<<B_nl>g22
+R1
+w1606981987
+8../rtl/apb_sram.v
+F../rtl/apb_sram.v
+L0 28
+R3
+R4
+R5
+R6
+!s101 -O0
+!i113 0
+R7
+vspram_generic
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 7PnOB]eU53U3o6`m=X>S:0
+I^0^WTeZ>U8:LleV54P:Fh2
+R1
+w1606978215
+8../pattern/spram_generic.v
+F../pattern/spram_generic.v
+R2
+R3
+R4
+R5
+R6
+!s101 -O0
+!i113 0
+R7
+vtb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?E>:]QcS3`YNbQ89f:i;L0
+IHoO7DA0DhHH7egb2n0nmc3
+R1
+w1606981392
+8../pattern/tb.v
+F../pattern/tb.v
+L0 24
+R3
+R4
+R5
+R6
+!s101 -O0
+!i113 0
+R7

@@ -1,0 +1,108 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86189/Desktop/2024WS/VHDL/submit/rcs1
+T_opt
+!s110 1704113403
+VDcW59hgh^08VOE_9o^5nz1
+Z1 04 2 4 work tb fast 0
+=1-802bf9a64bfb-6592b4fb-15-4e68
+o-quiet -auto_acc_if_foreign -work work -L ./work +acc
+n@_opt
+Z2 OL;O;10.4c;61
+R0
+T_opt1
+!s110 1703534496
+V025d5]EoPTRlbA]mG<VD70
+R1
+=1-802bf9a64bfb-6589dfa0-1bb-65a8
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt1
+R2
+R0
+vapb_ms_model
+Z3 !s110 1704113846
+!i10b 1
+!s100 AikYDbKT4T<NO0POW=P:Y2
+Io]AS:F0E9oOgMS@I_XXcC3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dC:/Users/86189/Desktop/IC/Practice/apb_sram/sim
+w1704112859
+8../model/apb_ms_model.v
+F../model/apb_ms_model.v
+L0 5
+Z6 OL;L;10.4c;61
+r1
+!s85 0
+31
+Z7 !s108 1704113846.000000
+Z8 !s107 ../model/apb_ms_model.v|../model/tb.v|../rtl/sp_sram.v|../rtl/apb_sram_beta.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-f|flist.f|
+!i113 0
+Z10 o-vlog01compat -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vapb_sram_beta
+R3
+!i10b 1
+!s100 gBBD[o:cdFB`aOG^@VPl40
+I@8BUIi5iZ:SSN?JhDJA9z2
+R4
+R5
+w1704113167
+8../rtl/apb_sram_beta.v
+F../rtl/apb_sram_beta.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vsp_sram
+R3
+!i10b 1
+!s100 2J[WEn?;54M1j6bKkPhRJ3
+IfinfSVZ7WbMgcMP0:a2YC0
+R4
+R5
+w1703533185
+8../rtl/sp_sram.v
+F../rtl/sp_sram.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vtb
+R3
+!i10b 1
+!s100 YX`?K`ZPg8Ez2W90WmT3[1
+Imi>4k7]8oVgMWK9SE8Q;c2
+R4
+R5
+w1704113395
+8../model/tb.v
+F../model/tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10

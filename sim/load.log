@@ -1,0 +1,256 @@
+# vsim -c "+nowarnTSCALE" -L ./work -voptargs="+acc" -l load.log tb 
+# Start time: 13:40:08 on Jan 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb(fast)
+# Loading work.apb_ms_model(fast)
+# Loading work.apb_sram_beta(fast)
+# Loading work.sp_sram(fast)
+# hexadecimal
+# model works
+# initialization works
+# 111
+# cnt < 2
+# 00000000
+# cnt < 2
+# 00000001
+# 111
+# cnt >= 2
+# addr is 000
+# Break key hit
+# Break in Module tb at ../model/tb.v line 18
+# altEditor error: invalid command name "external_editor"
+do run_sim.do
+# Model Technology ModelSim SE-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 13:41:57 on Jan 01,2024
+# vlog -reportprogress 300 -vlog01compat -f flist.f 
+# -- Compiling module apb_sram_beta
+# -- Compiling module sp_sram
+# -- Compiling module tb
+# -- Compiling module apb_ms_model
+# 
+# Top level modules:
+# 	tb
+# End time: 13:41:58 on Jan 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:41:59 on Jan 01,2024, Elapsed time: 0:01:51
+# Errors: 1, Warnings: 0
+# vsim -c "+nowarnTSCALE" -L ./work -voptargs="+acc" -l load.log tb 
+# Start time: 13:41:59 on Jan 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb(fast)
+# Loading work.apb_ms_model(fast)
+# Loading work.apb_sram_beta(fast)
+# Loading work.sp_sram(fast)
+# hexadecimal
+# model works
+# initialization works
+# 111
+# cnt < 2
+# 00000000
+# cnt < 2
+# 00000001
+# 111
+# cnt >= 2
+# 00000002
+# addr is 000
+# ** Note: $finish    : ../model/tb.v(19)
+#    Time: 41155 ns  Iteration: 1  Instance: /tb
+# 1
+# Break in Module tb at ../model/tb.v line 19
+# altEditor error: invalid command name "external_editor"
+do run_sim.do
+# Model Technology ModelSim SE-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 13:48:29 on Jan 01,2024
+# vlog -reportprogress 300 -vlog01compat -f flist.f 
+# -- Compiling module apb_sram_beta
+# -- Compiling module sp_sram
+# -- Compiling module tb
+# -- Compiling module apb_ms_model
+# 
+# Top level modules:
+# 	tb
+# End time: 13:48:29 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:48:30 on Jan 01,2024, Elapsed time: 0:06:31
+# Errors: 1, Warnings: 0
+# vsim -c "+nowarnTSCALE" -L ./work -voptargs="+acc" -l load.log tb 
+# Start time: 13:48:30 on Jan 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb(fast)
+# Loading work.apb_ms_model(fast)
+# Loading work.apb_sram_beta(fast)
+# Loading work.sp_sram(fast)
+# hexadecimal
+# model works
+# initialization works
+# 111
+# cnt < 2
+# 00000000
+# cnt < 2
+# 00000001
+# 111
+# cnt >= 2
+# 00000002
+# addr is 000
+# 333
+# 00000002
+# cnt >= 2
+# 00000003
+# addr is ffc
+# 333
+# 00000003
+# fixed addr works
+# ** Note: $finish    : ../model/tb.v(19)
+#    Time: 41155 ns  Iteration: 1  Instance: /tb
+# 1
+# Break in Module tb at ../model/tb.v line 19
+# altEditor error: invalid command name "external_editor"
+do run_sim.do
+# Model Technology ModelSim SE-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 13:50:01 on Jan 01,2024
+# vlog -reportprogress 300 -vlog01compat -f flist.f 
+# -- Compiling module apb_sram_beta
+# -- Compiling module sp_sram
+# -- Compiling module tb
+# -- Compiling module apb_ms_model
+# 
+# Top level modules:
+# 	tb
+# End time: 13:50:01 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:50:02 on Jan 01,2024, Elapsed time: 0:01:32
+# Errors: 1, Warnings: 0
+# vsim -c "+nowarnTSCALE" -L ./work -voptargs="+acc" -l load.log tb 
+# Start time: 13:50:02 on Jan 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb(fast)
+# Loading work.apb_ms_model(fast)
+# Loading work.apb_sram_beta(fast)
+# Loading work.sp_sram(fast)
+# hexadecimal
+# model works
+# initialization works
+# 111
+# cnt < 2
+# 00000000
+# cnt < 2
+# 00000001
+# 111
+# cnt >= 2
+# 00000002
+# addr is 000
+# 333
+# 00000002
+# cnt >= 2
+# 00000003
+# addr is ffc
+# 333
+# 00000003
+# fixed addr works
+# OK: sim pass
+# ** Note: $finish    : ../model/apb_ms_model.v(192)
+#    Time: 42136 ns  Iteration: 0  Instance: /tb/u_apb_ms_model
+# 1
+# Break in Module apb_ms_model at ../model/apb_ms_model.v line 192
+# altEditor error: invalid command name "external_editor"
+do run_sim.do
+# Model Technology ModelSim SE-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 13:55:48 on Jan 01,2024
+# vlog -reportprogress 300 -vlog01compat -f flist.f 
+# -- Compiling module apb_sram_beta
+# -- Compiling module sp_sram
+# -- Compiling module tb
+# -- Compiling module apb_ms_model
+# 
+# Top level modules:
+# 	tb
+# End time: 13:55:48 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:55:49 on Jan 01,2024, Elapsed time: 0:05:47
+# Errors: 1, Warnings: 0
+# vsim -c "+nowarnTSCALE" -L ./work -voptargs="+acc" -l load.log tb 
+# Start time: 13:55:49 on Jan 01,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.tb(fast)
+# Loading work.apb_ms_model(fast)
+# Loading work.apb_sram_beta(fast)
+# Loading work.sp_sram(fast)
+# hexadecimal
+# ** Error: Cannot open macro file: ./wave.do
+# Error in macro ./run_sim.do line 23
+# Cannot open macro file: ./wave.do
+#     while executing
+# "do ./wave.do"
+do run_sim.do
+# Model Technology ModelSim SE-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 13:57:26 on Jan 01,2024
+# vlog -reportprogress 300 -vlog01compat -f flist.f 
+# -- Compiling module apb_sram_beta
+# -- Compiling module sp_sram
+# -- Compiling module tb
+# -- Compiling module apb_ms_model
+# 
+# Top level modules:
+# 	tb
+# End time: 13:57:26 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:57:26 on Jan 01,2024, Elapsed time: 0:01:37
+# Errors: 3, Warnings: 0
+# vsim -c "+nowarnTSCALE" -L ./work -voptargs="+acc" -l load.log tb 
+# Start time: 13:57:26 on Jan 01,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.tb(fast)
+# Loading work.apb_ms_model(fast)
+# Loading work.apb_sram_beta(fast)
+# Loading work.sp_sram(fast)
+# hexadecimal
+# model works
+# initialization works
+# 111
+# cnt < 2
+# 00000000
+# cnt < 2
+# 00000001
+# 111
+# cnt >= 2
+# 00000002
+# addr is 000
+# 333
+# 00000002
+# cnt >= 2
+# 00000003
+# addr is ffc
+# 333
+# 00000003
+# fixed addr works
+# OK: sim pass
+# ** Note: $finish    : ../model/apb_ms_model.v(192)
+#    Time: 42136 ns  Iteration: 0  Instance: /tb/u_apb_ms_model
+# 1
+# Break in Module apb_ms_model at ../model/apb_ms_model.v line 192
+# altEditor error: invalid command name "external_editor"
+add wave -position insertpoint  \
+sim:/tb/u_apb_ms_model/addr \
+sim:/tb/u_apb_ms_model/clk \
+sim:/tb/u_apb_ms_model/cnt \
+sim:/tb/u_apb_ms_model/mem_abit \
+sim:/tb/u_apb_ms_model/mem_depth \
+sim:/tb/u_apb_ms_model/mem_dw \
+sim:/tb/u_apb_ms_model/paddr \
+sim:/tb/u_apb_ms_model/penable \
+sim:/tb/u_apb_ms_model/prdata \
+sim:/tb/u_apb_ms_model/pready \
+sim:/tb/u_apb_ms_model/psel \
+sim:/tb/u_apb_ms_model/pwdata \
+sim:/tb/u_apb_ms_model/pwrite \
+sim:/tb/u_apb_ms_model/rand \
+sim:/tb/u_apb_ms_model/rdata \
+sim:/tb/u_apb_ms_model/ref_data \
+sim:/tb/u_apb_ms_model/rstn \
+sim:/tb/u_apb_ms_model/wdata
